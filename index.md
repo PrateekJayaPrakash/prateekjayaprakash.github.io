@@ -5,7 +5,7 @@
 ### Category Name 1 
 
 [Non-linear control of underwater snake robot](/sample_page)
-<img src="images/ezgif.com-video-to-gif(1).gif?raw=true"/>
+<img src="snake_giff.gif?raw=true"/>
 
 ---
 [Caterpillar locotion](/pdf/sample_presentation.pdf)
