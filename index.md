@@ -2,20 +2,22 @@
 
 ---
 
-### Category Name 1 
+### Control System Projects
 
-[Non-linear control of underwater snake robot](/sample_page)
+[1. Non-linear control of underwater snake robot](/sample_page)
 <img src="images/snake_nodes.gif?raw=true"/>
 
 ---
-[Caterpillar locotion](/pdf/sample_presentation.pdf)
+[2. Caterpillar locotion](/pdf/sample_presentation.pdf)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
-[Dynamics of a Flexible pendulum](http://example.com/)
+[3. Dynamics of a Flexible pendulum](http://example.com/)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
+
+### Systems Engineering Projects
 
 ### Category Name 2
 
