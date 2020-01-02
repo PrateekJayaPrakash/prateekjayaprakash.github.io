@@ -4,7 +4,7 @@
 
 ### Control System Projects
 
-[1. Non-linear control of underwater snake robot](/sample_page)
+[1. Non-linear control of underwater snake robot](/snake_sample_page)
 <img src="images/snake_nodes.gif?raw=true"/>
 
 ---
