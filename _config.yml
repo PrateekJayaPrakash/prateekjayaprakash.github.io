@@ -2,9 +2,9 @@ title: Prateek Jaya Prakash # your name (or website title) here
 logo: "/images/photo.jfif?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
   Systems Engineering graduate student  
-  <br><br>
+  <br>
   Focus on Robotics and control systems 
-  <br><br>
+  <br>
   <a href="https://www.linkedin.com/in/prateek-jaya-prakash">View My LinkedIn Profile</a> 
   
 theme: jekyll-theme-minimal
