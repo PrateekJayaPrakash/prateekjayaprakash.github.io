@@ -10,7 +10,7 @@ By using elastic links with direct control on the shape of the robot, we can ach
 1. Elastic links allow for an inbuild pneumatic buayancy controller where the buoyancy can be varied by pumping air into the flexible   links.
 2. Elastic links offer a wide range of applications in search and rescue operations. (Ability to access tight areas)
 
-An example of this buoyancy and shape control. [Buoyancy control](https://youtu.be/1sJJOY3BnEQ).Credit to Dr. Derek Paley and team at the CDCL lab, University of Maryland.
+[An example of this buoyancy and shape control](https://youtu.be/1sJJOY3BnEQ).Credit to Dr. Derek Paley and team at the CDCL lab, University of Maryland.
 
 
 ### 2. Assess assumptions on which statistical inference will be based
