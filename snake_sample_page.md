@@ -16,17 +16,13 @@ By using elastic links with direct control on the shape of the robot, we can ach
 
 ### 2. Why distributed control?
 
-```javascript
-if (isAwesome){
-  return true
-}
-```
 
-### 3. Support the selection of appropriate statistical tools and techniques
+
+### 3. Open Loop results
 
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
-### 4. Provide a basis for further data collection through surveys or experiments
+### 4. Approach to feedback control
 
 Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
 
