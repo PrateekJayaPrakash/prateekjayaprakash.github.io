@@ -23,7 +23,7 @@ The desired consensus here is that the nodes oscillate at a fixed amplitude and 
 
 ### 3. Open Loop results
 
-The first step in the project is to find a gait that achieves locomotion in an ideal environment. On review of existing literature, I found that a travelling wave  
+The first step in the project is to find a gait that achieves locomotion in an ideal environment. On review of existing literature, I found that a travelling wave motion resulted in locomotion. I applied a input to the nodes such that a travelling wave is induced in the robot. The results were very promising with locomotion indicated by the node map below.
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ### 4. Approach to control
