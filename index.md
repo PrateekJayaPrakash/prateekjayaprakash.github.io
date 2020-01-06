@@ -9,7 +9,7 @@
 <img src="images/snake_nodes.gif?raw=true"/>
 
 ---
-[2. Caterpillar locotion](/pdf/sample_presentation.pdf)
+[2. Caterpillar locotion](/Caterpillar)
 <img src="images/Caterpillar.gif?raw=true"/>
 
 ---
