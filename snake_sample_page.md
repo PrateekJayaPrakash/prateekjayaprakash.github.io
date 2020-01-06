@@ -23,6 +23,7 @@ The desired consensus here is that the nodes oscillate at a fixed amplitude and 
 
 ### 3. Open Loop results
 
+The first step in the project is to find a gait that achieves locomotion in an ideal environment. On review of existing literature, I found that a travelling wave  
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ### 4. Approach to control
