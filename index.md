@@ -6,15 +6,15 @@
 ### Control System Projects
 
 [1. Non-linear control of underwater snake robot](/snake_sample_page)
-<img src="images/snake_nodes.gif?raw=true"/>
+
 
 ---
 [2. Caterpillar locotion](/Caterpillar)
-<img src="images/Caterpillar.gif?raw=true"/>
+
 
 ---
 [3. Dynamics of a Flexible pendulum](http://example.com/)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+
 
 ---
 
