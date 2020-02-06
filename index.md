@@ -26,13 +26,13 @@
 
 ### Systems Engineering Projects
 
-[Design V&V of a crane anti-collision system](http://example.com/)
+[1. Design V&V of a crane anti-collision system](http://example.com/)
 
 ---
-[ense 622](http://example.com/)
+[2. ense 622](http://example.com/)
 
 ---
-[ense 621](http://example.com/)
+[3. ense 621](http://example.com/)
 
 
 ---
