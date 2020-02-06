@@ -16,10 +16,10 @@
 [3. Dynamics of a Flexible pendulum](/flex_pend)
 
 ---
-[4. Stabilization of aircraft with damaged control surfaces](/flex_pend)
+[4. Stabilization of aircraft with damaged control surfaces](/aircraft)
 
 ---
-[5. Design and control of multi-terrain rover](/flex_pend)
+[5. Design and control of multi-terrain rover](/rover)
 
 
 ---
