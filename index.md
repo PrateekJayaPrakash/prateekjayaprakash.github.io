@@ -13,7 +13,13 @@
 
 
 ---
-[3. Dynamics of a Flexible pendulum](http://example.com/)
+[3. Dynamics of a Flexible pendulum](/flex_pend)
+
+---
+[4. Stabilization of aircraft with damaged control surfaces](/flex_pend)
+
+---
+[4. Design and control of multi-terrain rover](/flex_pend)
 
 
 ---
