@@ -9,11 +9,11 @@
 
 
 ---
-[2. Caterpillar locotion](/Caterpillar)
+[2. Motion planning for Anguilliform locomotion](/Caterpillar)
 
 
 ---
-[3. Dynamics of a Flexible pendulum](/flex_pend)
+[3. Dynamics and control of a Flexible pendulum](/flex_pend)
 
 ---
 [4. Stabilization of aircraft with damaged control surfaces](/aircraft)
