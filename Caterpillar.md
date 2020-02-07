@@ -10,17 +10,17 @@ Planar Discrete Elastic Rod theory is used to develop a dynamic model of a flexi
 
 The model of the ell exhibits fore-and-aft symmetry. From, <cite paper>, we see that a simple travelling wave moving along the body of the robot leads to a net movement in the forward direction. Mathematically, the momentum produced by each of the links add-up and result in a net momentum. From the following animation and the coressponding plot of the centre of mass, we can see we can see the robot move when excited by a travelling wave. 
 
-<img src="images/nodetraj_straight.JPG?raw=true" width="1000" align=center>
+<img src="images/nodetraj_straight.JPG?raw=true" width="1000" align="center">
 <p align="center">
-  <img src="images/swimmingEel_new.gif?raw=true" width="500" align=middle>
+  <img src="images/swimmingEel_new.gif?raw=true" width="500">
 </p>
 
 
 Next, we look to achieve a turning motion. By exciting the robot with an offsetted travelling wave, we can see that the robot moves on a curve, whose radius is proportinal to the angle of offset.
 
 <p align="center">
-  <img src="images/nodetraj_curved.JPG?raw=true" width="400" align=center>
-  <img src="images/swimmingEel_curved.gif?raw=true" width="700" align=middle>
+  <img src="images/nodetraj_curved.JPG?raw=true" width="400" >
+  <img src="images/swimmingEel_curved.gif?raw=true" width="700">
 </p>
 
 With the already developed feedback control algorithm and multiple open loop simulations, we quantify the distance the robot moves
