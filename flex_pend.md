@@ -58,11 +58,43 @@ Next we quantify the bending between adjacent links-
   <img src="images/pder3.JPG" width="200">
 </p>
 
+As mentioned before, mass is concentrated at each vertex. Let 𝑚_𝑘 be the mass of vertex k. 𝑚_𝑘=𝑎𝑣𝑒𝑟𝑎𝑔𝑒 𝑜𝑓 𝑡ℎ𝑒 𝑚𝑎𝑠𝑠𝑒𝑠 𝑜𝑓 𝑡ℎ𝑒 𝑡𝑤𝑜 𝑒𝑑𝑔𝑒𝑠 𝑚𝑒𝑒𝑡𝑖𝑛𝑔 𝑎𝑡 𝑣𝑒𝑟𝑡𝑒𝑥 𝑘.
 
-### 3. Motion as a combination of gaits
-With the already developed feedback control algorithm and multiple open loop simulations, we quantify the distance the robot moves in a unit time. Hence, we get 3 possible motions. Forward, turn left and turn right (Although it is possible to move is numerour direction, we only consider three for simplicity).
+<p align="center">
+	<img src="https://latex.codecogs.com/svg.latex?\Large&space;m_0=\frac{m^0}{2}" /><br/>
+	<img src="https://latex.codecogs.com/svg.latex?\Large&space;m_1=\frac{m^0+m^1}{2}" /><br/>
+	<img src="https://latex.codecogs.com/svg.latex?\Large&space;m_2=\frac{m^1+m^2}{2}" /><br/>
+	<img src="https://latex.codecogs.com/svg.latex?\Large&space;m_3=\frac{m^2+m^3}{2}" /><br/>
+</p>
 
-Example: Move forward - turn left - move forward combination
+### 3. Potential Energy of the System
+
+The Discrete elastic model is further simplified by constructing the 4-node model with-
+1. Linear springs representing the edges.
+2. Non-linear torsional springs at the nodes.
+<p align="center">
+  <img src="images/pder5.JPG" width="200">
+</p>
+
+The total potential energy of the system is comprised of the stretching energy, the bending energy and gravitational energy. Elastic stretching energy as a function of elastic strain-
+<p align="center">
+	<img src="images/pder10.JPG" width="250">
+</p>
+Bending energy as a function of the curvature-
+<p align="center">
+	<img src="images/pder11.JPG" width="220">
+</p>
+<p align="center">
+	where-<br/>
+	<img src="https://latex.codecogs.com/svg.latex?\Large&space;\bar{l_j}=\frac{1}{2}(e^j+e^{j-1})" /><br/>
+	<img src="https://latex.codecogs.com/svg.latex?\Large&space;I_j=\frac{1}{2}\left(I^j+I^{j-1}\right)" /><br/>
+</p>
+
+Finally, the gravitational potential energy is given by-
+<p align="center">
+	<img src="images/pder12.JPG" width="120">
+</p>
+
 
 
 ### 4. Trajectory planning and control
