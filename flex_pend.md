@@ -47,13 +47,14 @@ For simplicity, we assume N=4 (4 nodes and 3 links). The 3 links can independent
 </p>
 
 Next we quantify the bending between adjacent links-
+<p align="center">
 	<img src="https://latex.codecogs.com/svg.latex?\Large&space;\varphi_k=\cos^{-1}{\left(t^{k-1}.t^k\right)}" /><br/>
 	<img src="https://latex.codecogs.com/svg.latex?\Large&space;\kappa_k=2\ast\tan{(\frac{\varphi_k}{2})}" /><br/>
 	where- <br/>
 	<img src="https://latex.codecogs.com/svg.latex?\Large&space;\varphi_k" />  = turning angle at node k <br/>
 	<img src="https://latex.codecogs.com/svg.latex?\Large&space;\kappa_k" /> = curvature at node k <br/>
-
-<p align="right">
+</p>
+<p align="center">
   <img src="images/pder3.JPG" width="200">
 </p>
 
