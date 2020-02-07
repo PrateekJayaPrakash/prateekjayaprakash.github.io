@@ -97,7 +97,16 @@ Finally, the gravitational potential energy is given by-
 
 
 
-### 4. Trajectory planning and control
+### 4. Pure stretching simulation.
 
-The approach to trajectory control is to calculate a optimised path to the destination using the Hamilton-Jacobi-Bellman equation and then then develop a position-based feedback control to keep the snake on the path. With simplicity and time frame in mind, motion planning is done in a static environment. The position feedback can be a overhead camera that is trained to track the centre of mass of the robot. 
+<p align="center">
+	<img src="images/stretching_Trim.gif" width="500">
+</p>
+
+By plotting the energy of the system, we can see the evolution of the various potential energies and the total energy.
+<p align="center">
+	<img src="images/pder7.JPG" width="700">
+</p>
+
+ 
 
