@@ -18,6 +18,10 @@ The model of the ell exhibits fore-and-aft symmetry. From, <cite paper>, we see 
 
 Next, we look to achieve a turning motion. By exciting the robot with an offsetted travelling wave, we can see that the robot moves on a curve, whose radius is proportinal to the angle of offset.
 
+<p align="center">
+  <img src="images/nodetraj_curved.JPG" width=400 align=center>
+  <img src="images/swimmingEel_curved.gif" width=700 align=middle>
+</p>
 
 With the already developed feedback control algorithm and multiple open loop simulations, we quantify the distance the robot moves
 
@@ -26,9 +30,7 @@ With the already developed feedback control algorithm and multiple open loop sim
 With the already developed feedback control algorithm and multiple open loop simulations, we quantify the distance the robot moves in a unit time. Hence, we get 3 possible motions. Forward, turn left and turn right (Although it is possible to move is numerour direction, we only consider three for simplicity).
 
 Example: Move forward - turn left - move forward combination
-<p align="center">
-  <img src="images/dummy_thumbnail.jpg" width=300 align="center">
-</p>
+
 
 ### 4. Trajectory planning and control
 
