@@ -25,7 +25,7 @@ With the already developed feedback control algorithm and multiple open loop sim
 
 Example: Move forward - turn left - move forward combination
 
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+<img src="images/dummy_thumbnail.jpg" width=300 align=right>
 
 ### 4. Trajectory planning and control
 
