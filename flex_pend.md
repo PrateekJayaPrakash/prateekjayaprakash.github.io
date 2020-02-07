@@ -1,6 +1,7 @@
 ## Project Description
 
-**Project description:** Aguilliform robots are essentially eel-like robots designed for improved underwater agility and efficiency. By quantifying their motion into gaits, we can use the symmetry of the underlying Lie brackets to develop an outer loop feedback control to control the path of the robot.
+**Project description:** The Discrete Elastic Rod theory is one of the many approaches to model flexible bodies. Based on Kirchhoff's rod theory. Uses concepts from discrete differential geometry. Primary focus is on the planar case. 
+
 
 ### 1. Dynamic model of an eel
 
@@ -12,7 +13,7 @@ The model of the ell exhibits fore-and-aft symmetry. From, <cite paper>, we see 
 
 <img src="images/nodetraj_straight.JPG" width=1000 align=center>
 <p align="center">
-  <img src="images/swimmingEel_new.gif" height 100 width=500 align=middle>
+  <img src="images/swimmingEel_new.gif" height 100 width=500>
 </p>
 
 
