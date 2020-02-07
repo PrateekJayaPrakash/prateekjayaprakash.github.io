@@ -16,7 +16,7 @@ Consider a pendulum with flexible link of mass M continuously distributed throug
 2. N-1 edges of length of length 𝐿_𝑖. 
 	
 <p align="center">
-  <img src="images/pder1.JPG" height 100 width=500>
+  <img src="images/pder1.JPG" width="500">
 </p>
 <p align="center">
   Figure 1.1, Jawed, M.K., Novelia, A., O’Reilly O, M.: A Primer on the Kinematics of Discrete Elastic Rods. [1]
@@ -29,7 +29,7 @@ Predicted model is close to the theoretical model (Based on Euler’s classical 
 Twisting about the center line is neglected. A set of links can only stretch and/or bend in a plane. (assume this to be the x-y plane)
 
 <p align="center">
-  <img src="images/pder2.JPG" height 100 width=500>
+  <img src="images/pder2.JPG" height 100 width="500">
 </p>
 
 <p align="center">
@@ -47,10 +47,14 @@ For simplicity, we assume N=4 (4 nodes and 3 links). The 3 links can independent
 </p>
 
 Next we quantify the bending between adjacent links-
-<p align="center">
 	<img src="https://latex.codecogs.com/svg.latex?\Large&space;\varphi_k=\cos^{-1}{\left(t^{k-1}.t^k\right)}" /><br/>
 	<img src="https://latex.codecogs.com/svg.latex?\Large&space;\kappa_k=2\ast\tan{(\frac{\varphi_k}{2})}" /><br/>
 	where- <br/>
+	<img src="https://latex.codecogs.com/svg.latex?\Large&space;\varphi_k" />  = turning angle at node k <br/>
+	<img src="https://latex.codecogs.com/svg.latex?\Large&space;\kappa_k" /> = curvature at node k <br/>
+
+<p align="right">
+  <img src="images/pder3.JPG" width="200">
 </p>
 
 
