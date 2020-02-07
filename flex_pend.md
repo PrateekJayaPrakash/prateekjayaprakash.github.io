@@ -1,13 +1,31 @@
 ## Project Description
 
-**Project description:** The Discrete Elastic Rod theory is one of the many approaches to model flexible bodies. Based on Kirchhoff's rod theory. Uses concepts from discrete differential geometry. Primary focus is on the planar case. 
+**Project description:** The Discrete Elastic Rod (DER) theory is one of the many approaches to model flexible bodies. Based on Kirchhoff's rod theory. Uses concepts from discrete differential geometry. Primary focus is on the planar case. 
+<p align="center">
+  <img src="images/coiling_1.gif?raw=true" width="500">
+</p>
+<p align="center">
+  Credits: http://www.cs.columbia.edu/cg/elastic_coiling/
+</p>
+
+### 1. DER Formulation
+
+Consider a pendulum with flexible link of mass M continuously distributed throughout the length L. If the link is rigid, the dynamics are straightforward. For a flexible link, DER formulation “discretizes” the rod into a set of-
+  1. N nodes each with a mass 𝑀_𝑖.
+	2. N-1 edges of length of length 𝐿_𝑖. 
+<p align="center">
+  <img src="images/pder1.JPG" height 100 width=500>
+</p>
+<p align="center">
+  Figure 1.1, Jawed, M.K., Novelia, A., O’Reilly O, M.: A Primer on the Kinematics of Discrete Elastic Rods. [1]
+</p>
+
+Predicted model is close to the theoretical model (Based on Euler’s classical theory of elasticity) for higher values of N. The Mass is assumed to be concentrated at nodes, with the links being massless. A given node ‘i’ is only affected by its immediate neighbors. (Nodes i-1 and i+1).
 
 
-### 1. Dynamic model of an eel
-
-Planar Discrete Elastic Rod theory is used to develop a dynamic model of a flexible eel robot. The model assumes that the the links are flexible and massless. The nodes carry all the mass, and consequently, the forces that act on the robot. We use a simplified fluid force model by [Kelasidi et. al](site it) to calculate the dynamic fluid force acting on the nodes. The flexible links experience a force due to relative stretching and bending which interact with the fluid forces to generate motion.
-
-### 2.Quantifying motion into gaits
+### 2.PDER Theory
+Twisting about the center line is neglected. A set of links can only stretch and/or bend in a plane. (assume this to be the x-y plane)
+𝑒^𝑘  𝑖𝑠 𝑡ℎ𝑒 𝑒𝑑𝑔𝑒 𝑣𝑒𝑐𝑡𝑜𝑟 | 𝑣𝑒𝑐𝑡𝑜𝑟 𝑓𝑟𝑜𝑚 𝑛𝑜𝑑𝑒 𝑘−1 𝑡𝑜 𝑛𝑜𝑑𝑒 𝑘.𝑡^𝑘  𝑖𝑠 𝑡ℎ𝑒 𝑢𝑛𝑖𝑡 𝑣𝑒𝑐𝑡𝑜𝑟 | 𝑡^𝑘=  (𝑒^𝑘 ) ̅/‖(𝑒^𝑘 ) ̅ ‖   
 
 The model of the ell exhibits fore-and-aft symmetry. From, <cite paper>, we see that a simple travelling wave moving along the body of the robot leads to a net movement in the forward direction. Mathematically, the momentum produced by each of the links add-up and result in a net momentum. From the following animation and the coressponding plot of the centre of mass, we can see we can see the robot move when excited by a travelling wave. 
 
