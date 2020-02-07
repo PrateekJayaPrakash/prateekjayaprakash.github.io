@@ -11,8 +11,10 @@
 ### 1. DER Formulation
 
 Consider a pendulum with flexible link of mass M continuously distributed throughout the length L. If the link is rigid, the dynamics are straightforward. For a flexible link, DER formulation “discretizes” the rod into a set of-
-  1. N nodes each with a mass 𝑀_𝑖.
-	2. N-1 edges of length of length 𝐿_𝑖. 
+
+1. N nodes each with a mass 𝑀_𝑖.
+2. N-1 edges of length of length 𝐿_𝑖. 
+	
 <p align="center">
   <img src="images/pder1.JPG" height 100 width=500>
 </p>
