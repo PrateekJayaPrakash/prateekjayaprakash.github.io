@@ -25,25 +25,18 @@ Predicted model is close to the theoretical model (Based on Euler’s classical 
 
 ### 2.PDER Theory
 Twisting about the center line is neglected. A set of links can only stretch and/or bend in a plane. (assume this to be the x-y plane)
-𝑒^𝑘  𝑖𝑠 𝑡ℎ𝑒 𝑒𝑑𝑔𝑒 𝑣𝑒𝑐𝑡𝑜𝑟 | 𝑣𝑒𝑐𝑡𝑜𝑟 𝑓𝑟𝑜𝑚 𝑛𝑜𝑑𝑒 𝑘−1 𝑡𝑜 𝑛𝑜𝑑𝑒 𝑘.𝑡^𝑘  𝑖𝑠 𝑡ℎ𝑒 𝑢𝑛𝑖𝑡 𝑣𝑒𝑐𝑡𝑜𝑟 | 𝑡^𝑘=  (𝑒^𝑘 ) ̅/‖(𝑒^𝑘 ) ̅ ‖   
-
-The model of the ell exhibits fore-and-aft symmetry. From, <cite paper>, we see that a simple travelling wave moving along the body of the robot leads to a net movement in the forward direction. Mathematically, the momentum produced by each of the links add-up and result in a net momentum. From the following animation and the coressponding plot of the centre of mass, we can see we can see the robot move when excited by a travelling wave. 
-
-<img src="images/nodetraj_straight.JPG" width=1000 align=center>
-<p align="center">
-  <img src="images/swimmingEel_new.gif" height 100 width=500>
-</p>
-
-
-Next, we look to achieve a turning motion. By exciting the robot with an offsetted travelling wave, we can see that the robot moves on a curve, whose radius is proportinal to the angle of offset.
 
 <p align="center">
-  <img src="images/nodetraj_curved.JPG" width=400 align=center>
-  <img src="images/swimmingEel_curved.gif" width=700 align=middle>
+  <img src="images/pder2.JPG" height 100 width=500>
 </p>
 
-With the already developed feedback control algorithm and multiple open loop simulations, we quantify the distance the robot moves
+<p align="center">
+	<img src="https://latex.codecogs.com/svg.latex?\Large&space;e^k" title="\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" />  is the edge vector from node k-1 to node k. The unit vector is-
+</p>
 
+<p align="center">
+	<img src="https://latex.codecogs.com/svg.latex?\Large&space;t^k=\frac{|\overline{e^k}|}{\|\overline{e^k}\|}" title="\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" />
+</p>
 
 ### 3. Motion as a combination of gaits
 With the already developed feedback control algorithm and multiple open loop simulations, we quantify the distance the robot moves in a unit time. Hence, we get 3 possible motions. Forward, turn left and turn right (Although it is possible to move is numerour direction, we only consider three for simplicity).
