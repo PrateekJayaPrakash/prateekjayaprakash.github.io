@@ -33,12 +33,26 @@ Twisting about the center line is neglected. A set of links can only stretch and
 </p>
 
 <p align="center">
-	<img src="https://latex.codecogs.com/svg.latex?\Large&space;e^k" title="\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" />  is the edge vector from node k-1 to node k. The unit vector is-
+	<img src="https://latex.codecogs.com/svg.latex?\Large&space;e^k" />  is the edge vector from node k-1 to node k. The unit vector is-
 </p>
 
 <p align="center">
 	<img src="https://latex.codecogs.com/svg.latex?\Large&space;t^k=\frac{|\overline{e^k}|}{\|\overline{e^k}\|}" title="\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" />
 </p>
+
+For simplicity, we assume N=4 (4 nodes and 3 links). The 3 links can independently stretch along their center line. Hence, the linear strain is given by-
+
+<p align="center">
+	strain = <img src="https://latex.codecogs.com/svg.latex?\Large&space;\|e^k\|-\|\overline{e^k}\|" /><br/>
+</p>
+
+Next we quantify the bending between adjacent links-
+<p align="center">
+	<img src="https://latex.codecogs.com/svg.latex?\Large&space;\varphi_k=\cos^{-1}{\left(t^{k-1}.t^k\right)}" /><br/>
+	<img src="https://latex.codecogs.com/svg.latex?\Large&space;\kappa_k=2\ast\tan{(\frac{\varphi_k}{2})}" /><br/>
+	where- <br/>
+</p>
+
 
 ### 3. Motion as a combination of gaits
 With the already developed feedback control algorithm and multiple open loop simulations, we quantify the distance the robot moves in a unit time. Hence, we get 3 possible motions. Forward, turn left and turn right (Although it is possible to move is numerour direction, we only consider three for simplicity).
