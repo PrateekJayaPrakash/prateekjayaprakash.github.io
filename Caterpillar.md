@@ -38,6 +38,9 @@ Example: Move forward - turn left - move forward combination
 
 ### 4. Trajectory planning and control
 
+The approach to trajectory control is to calculate a optimised path to the destination using the Hamilton-Jacobi-Bellman equation and then then develop a position-based feedback control to keep the snake on the path. With simplicity and time frame in mind, motion planning is done in a static environment. The position feedback can be a overhead camera that is trained to track the centre of mass of the robot. 
 
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+
+
+<For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).>
