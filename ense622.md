@@ -1,73 +1,69 @@
 ## Project Description
 
-**Project description:** Apply concepts of systems engineering to develop a mode of urban commute which is economical, easy to operate and maintain, safe and reliable, reasonably fast and not-physically demanding, portable, eco-friendly, and has range in the order of a few miles.
+**Analysis Objective:** The goal of the trade-off analysis is to determine which design option for the e-bike has the best combination of high reliability, long range, and low cost.
 
-### 1.Stakeholders
+### 1.MOE and factors of interest
 <p align="center">
-  <img src="images/stakeholders.JPG?raw=true" width="500">
-</p>
-
-### 2. Top level capabilities and Measures of Effectiveness
-<p align="center">
-  <img src="images/tlcap.JPG?raw=true" width="500">
+  <img src="images/moe622.JPG?raw=true" width="500">
 </p>
 <p align="center">
-  <img src="images/MOE.JPG?raw=true" width="600">
+  <img src="images/foi622.JPG?raw=true" width="500">
 </p>
 
-### 3. Domain Definition BDD (SysML)
-<p align="center">
-  <img src="images/domainBDD.JPG?raw=true" width="1100">
-</p>
+### 2. Modeling and Simulation approach
+Analytical models for Cost, Reliability, and Range of the E-bike were developed. A Multi-Attribute Value Function (MAVF) analysis was performed to determine the best design option. Then, a Sensitivity Analysis was performed to assess the effect of uncertainty in the MAVF Analysis results due to the uncertainty in the design factor values. Monte Carlo simulations were performed on the Reliability and Range models to evaluate the uncertainties in the range and reliability of the system which were the inputs to the Sensitivity Analysis.
 
-### 4. System Context IBD (SysML)
-<p align="center">
-  <img src="images/contextIBD.JPG?raw=true" width="500">
-</p>
-The Maintainer has access to diagnostic data from the system and is authorised to service the vehicle. The operator (i.e user) has also has access to the disgnastic data to carry out simple maintenance.
 
-### 5. Use Case Diagram (SysML)
-<p align="center">
-  <img src="images/usecase.JPG?raw=true" width="500">
-</p>
-The are three main use cases are illustrated by the figure above.
+### 3. System Description
+The E-Bike is a personal transportation vehicle which consists of an electric propulsion system fitted to a bicycle chassis. Figure 1 depicts a System Block Definition Diagram of the E-bike System with its environment. The following are the principal components of the E-bike system:
 
-### 6. Trade-off Analysis
-The objective of the tradeoff analysis is to select a design option which corresponds to minimum weight and minimum cost for the fixed design parameters (Chassis Strength, Battery Capacity and Motor Power).
+1.	Rider/ User: The rider/user of the system is the person who is riding the E-bike for his/her daily commute. For the purpose of  analysis, we have considered the rider to be an adult with a body weight of 80kg (176.36 lbs.).
 
-Method: Pareto Frontier analysis and Multi Attribute Value Function (MAVF) 
+2.	Chassis: The Chassis is the main structural component of the E-bike and all the systems components are attached to it. For the purpose of the analysis, we have considered a chassis made of steel which weighs 25 kg.
 
-Firstly, we define the design criterion. The design factors that were considered in generating alternatives are as follows:
-1. Chassis Material (keeping the strength constant).
-2. Battery technology (keeping the battery capacity and voltage constant).
-3. Motor configuration (keeping the motor power constant).
-<p align="center">
-  <img src="images/design.JPG?raw=true" width="500">
-</p>
-Our reference design concept consists of Steel chassis, Lead acid battery and front hub motor. 
-<p align="center">
-  <img src="images/designoptions.JPG?raw=true" width="500">
-</p>
-The Pareto grapg is as below-
-<p align="center">
-  <img src="images/paretoGraph.JPG?raw=true" width="500">
-</p>
+3.	Battery Package: The battery package consists of the battery, charge controller, discharge controller, and the wiring harness. The battery is used as the primary power source to propel the E-bike forward. For the purpose of the analysis, we have considered batteries with the same energy capacity of 1440 Wh.
 
-### 7. MAVF Analysis
-The single attribute value function for selecting optimal solution in this case is:
-<p align="center">
-  𝑉=𝑤_1∗(𝑁𝑜𝑟𝑚𝑎𝑙𝑖𝑧𝑒𝑑 𝑊𝑒𝑖𝑔ℎ𝑡)+𝑤_2∗(𝑁𝑜𝑟𝑚𝑎𝑙𝑖𝑧𝑒𝑑 𝐶𝑜𝑠𝑡)
-<p>
-MAVF Swing Weighing:
-<p align="center">
-  <img src="images/MAVFtable.JPG?raw=true" width="500">
-</p>
-where, w1 = weight for “Weight” metric = 0.3
-       w2 = weight for “Cost” metric = 0.7
+4.	Motor Package: The motor package includes the motor, its wiring harness, and the motor controller. The motor provides the necessary torque to drive the wheels of the E-bike. We are considering 48V 1000W motors for this analysis.
 
-<p align="center">
-  <img src="images/MAVFresults.JPG?raw=true" width="500">
-</p>
+The environmental factors that affect the E-bike system performance are:
 
-Result and recommendation: The minimum MAVF value corresponds to the #7 design option which is Aluminum chassis with LiPo battery and Mid drive motor configuration. 
+1.	Wind
+
+2.	Terrain surface resistance
+
+3.	Terrain Gradient or slope
+
+### 4. Analysis Approach
+This section will provide a brief description of the analysis performed and the supporting mathematical models involved.
+
+1.	Establish the design options to be studied
+
+2.	Identify metrics for analysis– reliability, range, and cost
+
+3.	Identify Factors affecting selected metrics
+
+4.	Develop an analytical model for the cost
+
+5.	Develop an analytical model for System Reliability
+
+6.	Develop analytical models of E-bike Range
+
+7.	Perform MAVF (multi attribute value function) analysis to determine the best design option
+
+8.	Develop stochastic (Monte Carlo) models and simulations for Reliability
+
+9.	Develop stochastic (Monte Carlo) models and simulations for Range
+
+10.	Perform sensitivity analysis on the MAVF solution
+
+
+### 5. Analytical Models
+
+
+### 6. Monte-Carlo Results
+
+
+### 7. Sensitivity Analysis
+
+### 8. Results
 
