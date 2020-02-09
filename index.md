@@ -1,5 +1,4 @@
 ## Portfolio
-(Scroll down for systems engineering projects)
 
 ---
 
@@ -17,10 +16,7 @@
 
 ---
 
-[4. Design and control of multi-terrain rover](/rover)
 
-
----
 
 ### Systems Engineering Projects
 
