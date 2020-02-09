@@ -56,9 +56,11 @@ This section will provide a brief description of the analysis performed and the 
 
 10.	Perform sensitivity analysis on the MAVF solution
 
-
 ### 5. Analytical Models
 
+1. Range Model
+
+2. Reliability model
 
 ### 6. Monte-Carlo Results
 
