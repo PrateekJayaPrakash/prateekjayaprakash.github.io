@@ -78,27 +78,35 @@ This section will provide a brief description of the analysis performed and the 
 
 ### 6. Monte-Carlo Results
 The objective of the Range Monte Carlo Simulation is to determine the uncertainty in the Range given the uncertainty in the factor values. The Monte Carlo simulation is performed 2000 times (N=2000) by assuming the bike velocity, wind velocity, gradient and rolling resistance to be random variables. A normal distribution is assumed for all the above-mentioned variables with the following characteristics:
+
 <p align="center">
-  <img src="images/MCtable622.JPG?raw=true" width="500">
+  <img src="images/MCtable622.JPG?raw=true" width="700">
 </p>
 The design options consist of different battery and motor technology. The results of the MC analysis for range are-  
+
 <p align="center">
-  <img src="images/MCresult622.JPG?raw=true" width="500">
+  <img src="images/MCresult622.JPG?raw=true" width="700">
 </p>
+
 <p align="center">
-  <img src="images/Mcgraph622.JPG?raw=true" width="500">
+  <img src="images/Mcgraph622.JPG?raw=true" width="700">
 </p>
+
 ### 7. Sensitivity Analysis
 The Sensitivity Analysis is Performed by changing the Reliability, Range and Cost values to their high/low values of DO2 (the reference DO) and by recording the changes in the MAVF values as shown in the following table.
+
 <p align="center">
-  <img src="images/sen1622.JPG?raw=true" width="500">
+  <img src="images/sen1622.JPG?raw=true" width="400">
 </p>
+
 The high/low values are determined by Monte Carlo Simulations for Range and Reliability Models and by using high/low component cost values for Cost model as described before. Then a Tornado diagram is developed to visualize the dependency of uncertainties on the total uncertainty in the MAVF value.
+
 <p align="center">
-  <img src="images/sen2622.JPG?raw=true" width="500">
+  <img src="images/sen2622.JPG?raw=true" width="700">
 </p>
+
 <p align="center">
-  <img src="images/tornado622.JPG?raw=true" width="500">
+  <img src="images/tornado622.JPG?raw=true" width="700">
 </p>
 
 ### 8. Results
