@@ -20,7 +20,8 @@
 
 ### Systems Engineering Projects
 
-[1. Design V&V of a crane anti-collision system](https://drive.google.com/open?id=1qG89SA1uMuKAB71f8-gZlZCMjrQReXL-)
+[1. Design V&V of a crane anti-collision system](https://drive.google.com/open?id=1qG89SA1uMuKAB71f8-gZlZCMjrQReXL-)<br/>
+Co-authors: Sharanya Gowda, Jonathan Mahaffey, Hanish Mehta, and Charles Meehan. 
 
 ---
 [2. Design trade-off analysis for an electric bike](/ense622)
