@@ -4,10 +4,10 @@
 
 ### 1.MOE and factors of interest
 <p align="center">
-  <img src="images/moe622.JPG?raw=true" width="500">
+  <img src="images/moe622.JPG?raw=true" width="700">
 </p>
 <p align="center">
-  <img src="images/foi622.JPG?raw=true" width="500">
+  <img src="images/foi622.JPG?raw=true" width="700">
 </p>
 
 ### 2. Modeling and Simulation approach
@@ -59,13 +59,47 @@ This section will provide a brief description of the analysis performed and the 
 ### 5. Analytical Models
 
 1. Range Model
+<p align="center">
+  <img src="https://latex.codecogs.com/svg.latex?\Large&space;Range=\frac{E_{batt}*\eta_{motor}}{F_aero+F_rolling+F_slope}" /><br/>
+  <img src="https://latex.codecogs.com/svg.latex?\Large&space;F_{aero}=K_{aero}(V+V_{wind})^2" /><br/>
+  <img src="https://latex.codecogs.com/svg.latex?\Large&space;F_{rolling}=C_{rr}M_g" /><br/>
+  <img src="https://latex.codecogs.com/svg.latex?\Large&space;M=M_{rider}+M_{chassis}+M_{motor}+M_{battery}" /><br/>
+  where-<br/>
+    <img src="https://latex.codecogs.com/svg.latex?\Large&space;E_{batt}=" /> battery's total energy<br/>
+    <img src="https://latex.codecogs.com/svg.latex?\Large&space;\eta_{motor}=" /> motor's efficiency<br/>
+    <img src="https://latex.codecogs.com/svg.latex?\Large&space;V=" /> Velocity of the E-bike<br/>
+    <img src="https://latex.codecogs.com/svg.latex?\Large&space;V_{wind}=" /> Velocity of the wind<br/>
+    <img src="https://latex.codecogs.com/svg.latex?\Large&space;C_{rr}=" /> coefficient of rolling friction or resistance<br/>
+</p>
 
-2. Reliability model
+<p align="center">
+  <img src="images/range622.JPG?raw=true" width="300">
+</p>
 
 ### 6. Monte-Carlo Results
-
-
+The objective of the Range Monte Carlo Simulation is to determine the uncertainty in the Range given the uncertainty in the factor values. The Monte Carlo simulation is performed 2000 times (N=2000) by assuming the bike velocity, wind velocity, gradient and rolling resistance to be random variables. A normal distribution is assumed for all the above-mentioned variables with the following characteristics:
+<p align="center">
+  <img src="images/MCtable622.JPG?raw=true" width="500">
+</p>
+The design options consist of different battery and motor technology. The results of the MC analysis for range are-  
+<p align="center">
+  <img src="images/MCresult622.JPG?raw=true" width="500">
+</p>
+<p align="center">
+  <img src="images/Mcgraph622.JPG?raw=true" width="500">
+</p>
 ### 7. Sensitivity Analysis
+The Sensitivity Analysis is Performed by changing the Reliability, Range and Cost values to their high/low values of DO2 (the reference DO) and by recording the changes in the MAVF values as shown in the following table.
+<p align="center">
+  <img src="images/sen1622.JPG?raw=true" width="500">
+</p>
+The high/low values are determined by Monte Carlo Simulations for Range and Reliability Models and by using high/low component cost values for Cost model as described before. Then a Tornado diagram is developed to visualize the dependency of uncertainties on the total uncertainty in the MAVF value.
+<p align="center">
+  <img src="images/sen2622.JPG?raw=true" width="500">
+</p>
+<p align="center">
+  <img src="images/tornado622.JPG?raw=true" width="500">
+</p>
 
 ### 8. Results
-
+The Design Option 2 i.e. Ni-Cd Battery with Brushless DC motor is the recommended design option as it is the best design option based on the MAVF analysis as discussed above. But as discussed in the Sensitivity Analysis, due to uncertainties in Range and Reliability factor values, the Design Option 1 can also be selected. Thus, for a conclusive result we might have to collect extensive data on Range factors viz. wind velocity, terrain gradient and rolling resistance to reduce the uncertainty in the Range model. 
