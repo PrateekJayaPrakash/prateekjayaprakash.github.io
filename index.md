@@ -27,10 +27,10 @@
 [1. Design V&V of a crane anti-collision system](http://example.com/)
 
 ---
-[2. ense 622](http://example.com/)
+[2. Design trade-off analysis for an electric bike](/ense622)
 
 ---
-[3. ense 621](http://example.com/)
+[3. Systems design of an urban transportation device](/ense621)
 
 
 ---
