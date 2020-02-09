@@ -24,7 +24,7 @@
 
 ### Systems Engineering Projects
 
-[1. Design V&V of a crane anti-collision system](http://example.com/)
+[1. Design V&V of a crane anti-collision system](https://drive.google.com/open?id=1qG89SA1uMuKAB71f8-gZlZCMjrQReXL-)
 
 ---
 [2. Design trade-off analysis for an electric bike](/ense622)
